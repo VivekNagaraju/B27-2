@@ -56,7 +56,20 @@ print(c)
 # c.clear()
 # f=c.copy()
 # print(f)
-print(c.count(4))
-print(c.index(4,2))
-
+# print(c.count(4))
+# print(c.index(4,2))
+print(c.pop())
+print(c)
+print(c.pop(5))
+print(c)
+c.remove(6)
+print(c)
+c.remove(4)
+print(c)
+# c.sort()
+# print(c)
+# c.sort(reverse=True) # descending order
+# print(c)
+c.reverse() # reverse the existing list
+print(c)
 
