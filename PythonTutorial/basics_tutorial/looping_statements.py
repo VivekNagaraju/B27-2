@@ -1,6 +1,6 @@
 '''
-1. Looping statements:
-    a. while loop
+1. Looping statements: to execute any statements repeatedly
+    a. while loop- until condition is satisfying
         - initialization
         - condition statement
         - increment/ decrement
@@ -35,10 +35,19 @@ while count<=5:
         break
     count=count+1
 '''
+count=1
+while count<=5:
+    
+    if count==3:
+        count=count+1
+        continue
+    print(count)
+    count=count+1
 '''
 for count in range(5):
     print("Hello world!")
     
+'''
 '''
 index=0
 a=[1,2, 4, 5, "abv", 3, 4, 5]
@@ -46,6 +55,7 @@ for i in a:
     if i=="abv":
         continue
     print(i)
+'''
 '''
 for i in a:
     if i==5:
