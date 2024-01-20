@@ -18,6 +18,7 @@ Python:
 
 Variable: name given to the container in the memory where data is stored
 '''
+
 '''
 #multi-line commenting
 
@@ -44,6 +45,8 @@ print(f"Sum of {a} and {b}:",c)
 # print(type(a))
 # print(type(b))
 '''
+from functions.my_function import add
 
+add(4, 5)
 
 
