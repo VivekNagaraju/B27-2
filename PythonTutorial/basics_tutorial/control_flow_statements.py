@@ -9,13 +9,13 @@ Control flow statements:
 3. Looping statements
 '''
 age=int(input("Enter your age:"))
-'''
+
 if age>=13:
     print("Allow")   #indentation- 1 indent = 4 leading spaces
 else:
     print("Don't allow")
 print("program terminated")
-'''
+
 '''
 if age > 18:
     print("You're an adult")

@@ -1,7 +1,7 @@
 '''
 Operator:Is a symbol which performs certain action/ operation on operands
 Arithmetic operators: +,-,*,/, **, %, //
-Logical Operators: AND(&), OR(|), NOT(~), XOR (^)
+Logical Operators: AND(&), OR(|), NOT(~)
 Assignment operator: =
 Relational/Comparison operators: >,<,>=,<=,==, !=
 Unary minus operator: -
@@ -9,15 +9,18 @@ Membership Operators: in , not in
 Identity Operators: is, is not
 '''
 
-a=10 # hard-coded values
-b=10
-# print(a+b)
-# print(a-b)
-# print(a*b)
-# print(a/b)
-# print(a%b)
-# print(a//b)
+a=-19 # hard-coded values
+b=6
+'''
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b) # output will always be in float
+print(a%b)
+print(a//b) # integer division/ floor division
+print(4**3)
 # print(3^1)
+'''
 '''
 #Logical Operators
 print(1 and 1)
@@ -31,27 +34,31 @@ print(0 or 0)
 print(not 1)
 print(not 0)
 '''
+
 '''
 print(a, b)
-print(4!=4)
+print(a!=b)
 '''
 
 '''
 #Membership Operators
 
 name="aishwarya"
-print("a" in name)
-print("A" in name)
-print("z" not in name)
-print("z" in name)
+print("a" in "aishwarya")
+print("A" in "aishwarya")
+print("z" not in "aishwarya")
+print("z" in "aishwarya")
 '''
-'''
+
 #Identity Operators
-print(a is not b)
-'''
+print(a, b)
+print(id(a))
+print(id(b))
+print(a is b)
+
 #BODMAS
 #precedence order
-print(2-(5+4)*3/7)
+# print(2-(5+4)*3/7)
 '''
 2-5+1.7142
 '''
