@@ -47,6 +47,9 @@ print(f"Sum of {a} and {b}:",c)
 '''
 from functions.my_function import add
 
-add(4, 5)
+# add(4, 5)
 
-
+a=1
+b=5.9
+print(type(a))
+print(type(b))
